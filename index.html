@@ -17,6 +17,8 @@
 
     <!-- Material Design Bootstrap -->
     <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Template styles -->
@@ -91,48 +93,48 @@
 <body>
 
 
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-            <img class="img-fluid" src="/images/brand-logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    
-                </ul>
-                 <div class="menu-item pt-2 text-center mr-md-5">
-         <a class="pr-4 contact-icon" href="tel:2067956704" data-toggle="tooltip" data-placement="bottom" title="Call us now"><i class="fa fa-phone-square fa-2x" aria-hidden="true"></i></a>
-         
-         <a class="pl-2 contact-icon" href="mailto:kate@seattlestagingco.com" data-toggle="tooltip" data-placement="bottom" title="Email us"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-         
-         </div>
-            </div>
-        </div>
-    </nav>
+<!--Navbar-->
+<nav class="navbar navbar-dark navbar-expand-lg fixed-top scrolling-navbar justify-content-between">
+    
+    <div class="navbar-collapse collapse dual-nav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link pl-0" href="#">Home <span class="sr-only">Home</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="//codeply.com">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <a class="navbar-brand mr-md-0 d-block">
+            <img class="animated bounceInDown" src="images/brand-logo.png" alt="Seattle Staging Company logo"></a> 
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse dual-nav">
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link contact-icon" href="tel:2067956704"><i class="fa fa-phone-square fa-lg"></i></a></li>
+            <li class="nav-item"><a class="nav-link contact-icon" href="mailto:kate@seattlestagingco.com"><i class="fa fa-envelope fa-lg"></i></a></li>
+            <li class="nav-item"><a class="nav-link contact-icon" href="#"><i class="fa  fa-houzz fa-lg"></i></a></li>
+            <li class="nav-item"><a class="nav-link contact-icon" href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+            <li class="nav-item"><a class="nav-link contact-icon" href="https://www.facebook.com/seattlestagingcompany/"><i class="fa fa-facebook-official fa-lg"></i></a></li>
+        </ul>
+    </div>
+</nav>
     <!--/.Navbar-->
 
     
     <!--Carousel Wrapper-->
-            <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+            <div id="carousel-example-2" class="carousel carousel-fade d-none d-md-block" data-ride="carousel">
                 <!--Indicators-->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
@@ -144,32 +146,32 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="carousel-item active">
                         <div class="view hm-black-light">
-                            <img class="d-block w-100 carousel-fade" src="images/slide1.jpg" alt="First slide">
+                            <img class="d-md-block w-100 img-fluid" src="images/slide1.jpg" alt="First slide">
                             <div class="mask"></div>
                         </div>
-                        <div class="carousel-caption">
+                        <div class="carousel-caption d-none d-md-block">
                             <h3 class="h3-responsive">Title 1</h3>
                             <p>This is your excerpt. You can create a custom one or WordPress will do it for you.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" style="position: absolute; top:0px; width: 100% ; height: 100%">
                         <!--Mask color-->
                         <div class="view hm-black-light">
-                            <img class="d-block w-100" src="images/slide2.jpg" alt="Second slide">
+                            <img class="d-block w-100 img-fluid" src="images/slide2.jpg" alt="Second slide">
                             <div class="mask"></div>
                         </div>
-                        <div class="carousel-caption">
+                        <div class="carousel-caption d-none d-md-block">
                             <h3 class="h3-responsive">Title 2</h3>
                             <p>This is your excerpt. You can create a custom one or WordPress will do it for you.</p>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="carousel-item" style="position: absolute; top:0px; width: 100% ; height: 100%">
                         <!--Mask color-->
                         <div class="view hm-black-light">
-                            <img class="d-block w-100" src="images/slide3.jpg" alt="Third slide">
+                            <img class="d-block w-100 img-fluid" src="images/slide3.jpg" alt="Third slide">
                             <div class="mask"></div>
                         </div>
-                        <div class="carousel-caption">
+                        <div class="carousel-caption d-none d-md-block">
                             <h3 class="h3-responsive">Title 3</h3>
                             <p>This is your excerpt. You can create a custom one or WordPress will do it for you.</p>
                         </div>
@@ -189,142 +191,296 @@
             </div>
             <!--/.Carousel Wrapper-->
 
-<div class="container-fluid">
+
     
-    <div class="divider-new pt-5">
-            <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Recent Stagings</h2>
-        </div>
-    <div class="row">
-    
-    <div class="col-md-4 photo-box">
-        <div class="view overlay hm-black-strong">
-        <img class="img-fluid animated fadeInLeft" src="images/image1.jpg">
-         <div class="mask flex-center">
-             <p class="overlay-title"><small>ADDRESS</small></p>
-            
-            </div>
-            </div>
-        </div>
-    
-    <div class="col-md-4 photo-box">
-        <div class="view overlay hm-black-strong">
-        <img class="img-fluid animated fadeInDown" src="images/image2.jpg">
-         <div class="mask flex-center">
-             <p class="overlay-title"><small>ADDRESS</small></p>
-            
-            </div>
-            </div>
+    <div class="divider-new pt-5 mt-5 mt-md-0 d-none d-md-flex">
+            <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Recent Clients</h2>
         </div>
     
    
-      
-    <div class="col-md-4 photo-box">
+    <div class="row no-gutters pt-5 pt-md-0 mt-5 mt-md-0">
+    
+    <div class="col-md-6 photo-box">
         <div class="view overlay hm-black-strong">
-        <img class="img-fluid animated fadeInRight" src="images/image3.jpg">
+        <img class="img-fluid wow fadeInLeft" src="images/image2.jpg">
          <div class="mask flex-center">
              <p class="overlay-title"><small>ADDRESS</small></p>
             
             </div>
             </div>
         </div>
+    <div class="col-md-6 photo-box">
+        <div class="view overlay hm-black-strong">
+        <img class="img-fluid wow fadeInRight" src="images/image3.jpg">
+         <div class="mask flex-center">
+             <p class="overlay-title"><small>ADDRESS</small></p>
+            
+            </div>
+            </div>
+        </div>
+    </div> <!-- /ROW -->
     
-        
-         </div><!-- /ROW -->
-
-
+        <div class="row no-gutters">
+    
+    <div class="col-md-6 photo-box">
+        <div class="view overlay hm-black-strong">
+        <img class="img-fluid wow fadeInLeft" data-wow-delay="0.2s" src="images/image7.jpg">
+         <div class="mask flex-center">
+             <p class="overlay-title"><small>ADDRESS</small></p>
+            
+            </div>
+            </div>
+        </div>
+    <div class="col-md-6 photo-box">
+        <div class="view overlay hm-black-strong">
+        <img class="img-fluid wow fadeInRight" data-wow-delay="0.2s" src="images/image8.jpg">
+         <div class="mask flex-center">
+             <p class="overlay-title"><small>ADDRESS</small></p>
+            
+            </div>
+            </div>
+        </div>
+    </div> <!-- /ROW -->
+    
+        <!--<div class="row mx-auto">
+    <div class="photo-box">
+        <div class="view overlay hm-black-strong">
+        <img class="img-fluid wow fadeInUp" src="images/portfolio1.jpg">
+         <div class="mask flex-center">
+             <p class="overlay-title"><small>ADDRESS</small></p>
+            
+            </div>
+            </div>
+        </div>
+    </div><!-- /ROW -->
+    
+    
     <div class="divider-new pt-5">
-            <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Best Practices</h2>
+            <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">News & Tips</h2>
         </div>
     
-    <div class="row">
-        
-    <div class="col-md-4">
-        <!--Card-->
-        <div class="card">
-
-        <!--Card image-->
-            <div class="view hm-zoom">
-        <img class="img-fluid" src="/images/blog1.jpg" alt="Card image cap">
-            </div>
-        <!--Card content-->
-        <div class="card-body">
-        <!--Title-->
-        <h4 class="card-title">Yes, You Can Use Grey Every Day, Even In The Pacific Northwest</h4>
-        <!--Text-->
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Button</a>
-        </div>
-
-        </div><!--/.Card-->
-    </div><!--/ Col -->
     
-    <div class="col-md-4">
-        <!--Card-->
-        <div class="card">
-
-        <!--Card image-->
-            <div class="view hm-zoom">
-        <img class="img-fluid" src="/images/blog2.jpg" alt="Card image cap">
-            </div>
-        <!--Card content-->
-        <div class="card-body">
-        <!--Title-->
-        <h4 class="card-title">Why Home Staging Pays, According to Bob Vila</h4>
-        <!--Text-->
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Button</a>
-        </div>
-
-        </div><!--/.Card-->
-    </div><!--/ Col -->
-    
-     <div class="col-md-4">
-        <!--Card-->
-        <div class="card">
-
-        <!--Card image-->
-            <div class="view hm-zoom">
-        <img class="img-fluid" src="/images/blog3.jpg" alt="Card image cap">
-            </div>
-        <!--Card content-->
-        <div class="card-body">
-        <!--Title-->
-        <h4 class="card-title">Vignette Staging Delivers Results In Real Estate Market</h4>
-        <!--Text-->
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Button</a>
-        </div>
-
-        </div><!--/.Card-->
-    </div><!--/ Col -->
-</div> <!-- /ROW -->
-
-    
- <div class="divider-new pt-5">
-            <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">About Us</h2>
-        </div>
-    
-    <div class="row">
+    <div class="row mx-auto">
     
     <div class="col-md-6">
+        
+        
+        <div class="card card-cascade wider reverse my-4 wow fadeInRight">
+
+    <!--Card image-->
+    <div class="view hm-zoom">
+        <img src="images/blog1.jpg" class="img-fluid">
+        <a href="#!">
+        </a>
+    </div>
+    <!--/Card image-->
+
+    <!--Card content-->
+        
+    <div class="card-body text-center">
+        <!--Title-->
+        <a href="#"><h4 class="card-title">You Can Use Grey Every Day In The PNW</h4></a>
+        <p class="card-text">Okay, I like a challenge. There's no part of that sentence I didn't like! Soothe us with sweet lies. Spare me your space age technobabble, Attila the Hun!</p>
+       <a href="#"><p><small><strong>Design Tips</strong></small></p></a>
+</div>
+    <!--/.Card content-->
+</div>
+<!--/.Card-->
+        
+        </div>
+<div class="col-md-6">
+ <div class="card card-cascade wider reverse my-4 wow fadeInUp">
+
+    <!--Card image-->
+    <div class="view overlay hm-zoom">
+        <a href="#"><img src="images/blog2.jpg" class="img-fluid"></a>
+    </div>
+    <!--/Card image-->
+
+    <!--Card content-->
+    <div class="card-body text-center">
+        <!--Title-->
+        <a href="#"><h4 class="card-title">Why Home Staging Pays, According to Bob Vila</h4></a>
+        <p class="card-text"> The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate.
+        </p>
+        <a href="#"><p><small><strong>Staging News</strong></small></p></a>
+        </div>
+    <!--/.Card content-->
+</div>
+<!--/.Card-->       
+</div>   
+</div> <!--/ROW-->
+
+    <div class="row mx-auto">
+    
+    <div class="col-md-6">
+        
+        
+<div class="card card-cascade wider reverse my-4 wow fadeInRight">
+
+    <!--Card image-->
+    <div class="view overlay hm-zoom">
+        <a href="#"><img src="images/blog3.jpg" class="img-fluid"></a>
+    </div>
+    <!--/Card image-->
+
+    <!--Card content-->
+    <div class="card-body text-center">
+        <!--Title-->
+        <a href="#"><h4 class="card-title">Vignette Staging Delivers Outstanding Results</h4></a>
+        <p class="card-text"> The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate.
+        </p>
+        <a href="#"><p><small><strong>Staging News</strong></small></p></a>
+        </div><!--/Card Body-->
+</div><!-- /Card -->
+</div><!-- /Col -->
+        
+<div class="col-md-6">
+    <div class="card card-cascade wider reverse my-4 wow fadeInUp">
+        <div class="view overlay hm-zoom">
+        <img src="images/blog5.jpg" class="img-fluid">
+        <a href="#">
+            </a>
+        </div>
+    <div class="card-body text-center">
+        <a href="#"><h4 class="card-title">The Many Benefits of Professional Staging</h4></a>
+        <p class="card-text"> The alien mothership is in orbit here. If we can hit that bullseye, the rest of the dominoes will fall like a house of cards. Checkmate.
+        </p>
+        <a href="#"><p><small><strong>Staging News</strong></small></p></a>
+        </div><!--/Card Body-->
+</div><!-- /Card -->
+</div><!-- /Col -->
+</div> <!--/ROW-->
+
+    
+   
+   <div class="divider-new">
+            <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Who We Are</h2>
+        </div>
+    
+    <div class="container-fluid">
+    <div class="row mx-auto">
+    
+    <div class="col-md-6 pt-5">
+     
+        <p class="wow fadeIn" data-wow-delay="0.2s"><strong>Kate Hull</strong> et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque. Eaque ipsa quae ab illo inventore veritatis et quasi. Eaque ipsa quae ab illo inventore veritatis et quasi. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     </div>
     
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+        <div class="view overlay hm-zoom">
+        <a href="#"><img class="about-image pl-md-5 pr-md-5 wow fadeInRight" src="images/Kate_Hull_Seattle_Staging_Company_2017_1000x600.jpg" class="img-fluid"></a>
+        </div>
+        </div><!-- /COL -->
+    </div> <!-- /ROW -->        
+</div><!--/CONTAINER -->
     
+<div class="divider-new">
+            <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">What Others Say About Us</h2>
+        </div>
     
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card wow fadeInLeft mb-5">
+                <div class="card-body text-center">
+                <h3><em>"Within 2 weeks of hiring Seattle Staging Company, we had two different offers. I would highly recommend these guys."</em></h3>   
+                    <h6>&mdash;August P.</h6>
+            </div>
+        </div>
+    </div>    
     
+   <div class="col-md-6">
+            <div class="card wow fadeInRight mb-5">
+                <div class="card-body text-center">
+                <h3><em>"I was amazed how Kate turned our big duplex into a very desirable living space. We sold the property at a premium price! Fantastic work!"</em></h3>   
+                    <h6>&mdash;Melita D.</h6>
+            </div>
+        </div>
+    </div>     
+ </div><!-- /ROW-->
     
+<div class="row">
     
+   <div class="col-md-6">
+            <div class="card wow fadeInLeft mb-5">
+                <div class="card-body text-center">
+                <h3><em>"Kate is great at what she does. Take a leap of faith and hire this lady. Staging works!"</em></h3>   
+                    <h6>&mdash;Pierce A.</h6>
+            </div>
+        </div>
+    </div>     
+     
+    
+  <div class="col-md-6">
+            <div class="card wow fadeInRight mb-5">
+                <div class="card-body text-center">
+                <h3><em>"From start to finish, Seattle staging was truly professional. They did more with the space than I ever thought imaginable."</em></h3>   
+                    <h6>&mdash;Travis B.</h6>
+            </div>
+        </div>
+    </div>       
+  </div><!--/ROW-->
+ </div><!-- /TESTIMONIALS CONTAINER -->
+
+    
+    <div class="divider-new">
+            <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">On Instagram</h2>
+        </div>
+    <div class="row mb-4 mx-auto">
+
+                <div class="col-md-4">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="View on mountains from mountain top." class="img-fluid wow fadeInRight">
+                </div>
+
+                <div class="col-md-4">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(14).jpg" alt="Rocky shore in the morning." class="img-fluid wow fadeInUp" data-wow-delay="0.2s">
+                </div>
+
+                <div class="col-md-4">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg" alt="Rocky shore in the morning." class="img-fluid wow fadeInUp" data-wow-delay="0.6s">
+                </div>
+
+            </div>
+
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+        <div class="col-md-7 my-auto pr-md-5">
+        
+    <h1 class="h1-responsive text-right wow fadeIn">We'll make your property look its best!</h1>
+            <h4 class="h4-responsive wow fadeIn text-right">Call or email for a quote today.</h4>
     
     
     </div>
+       <div class="vl hidden-sm-down"></div>
+            <div class="col-md-5 my-auto pl-md-5">
+            <div class="row mt-0">
+          
+                   <ul class="text-left list-unstyled">
+                       
+
+                        <li class="wow fadeIn" data-wow-delay="0.3s"><a href="tel:2067956704"><i class="fa fa-phone fa-lg"></i></a>
+                            <p>206 795 6704</p>
+                        </li>
+
+                        <li class="wow fadeIn" data-wow-delay="0.4s"><a href="mailto:kate@seattlestagingco.com"><i class="fa fa-envelope fa-lg"></i></a>
+                            <p>kate@seattlestagingco.com</p>
+                        </li>
+                    </ul>
+                
+              </div>
+            
+  
+            
+            
+            
+            </div>
+   </div><!-- /ROW-->
+  </div><!-- /CTA Section -->
     
     
     
     
-    
-    
-</div><!-- / CONTAINER-FLUID -->
     <!--Footer-->
     <footer class="page-footer center-on-small-only pt-3 pb-1">
 
